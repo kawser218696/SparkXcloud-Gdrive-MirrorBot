@@ -1,0 +1,8 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      - API_ID=${14491250}
+      - API_HASH=${511716ff4449dcd96f35fcabdea68be1}
+      - BOT_TOKEN=${5278388084:AAFBfsakr-KVN3SLmiYG2u2DBwwrs0xDuoA}
